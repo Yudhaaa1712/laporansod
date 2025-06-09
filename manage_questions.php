@@ -191,7 +191,7 @@ foreach ($questions as $question) {
                             <i class="bi bi-building me-2"></i>Master Unit
                         </a>
                         <a href="#" class="nav-link active">
-                            <i class="bi bi-question-circle me-2"></i>Kelola Pertanyaan
+                            <i class="bi bi-question-circle me-2"></i>Kelola Target Laporan
                         </a>
                         <a href="monitoring_reports.php" class="nav-link">
                             <i class="bi bi-graph-up me-2"></i>Monitoring Laporan
@@ -212,7 +212,7 @@ foreach ($questions as $question) {
                 <div class="content-wrapper p-4">
                     <!-- Header -->
                     <div class="d-flex justify-content-between align-items-center mb-4">
-                        <h2 class="mb-0">Kelola Pertanyaan</h2>
+                        <h2 class="mb-0">Kelola Target Laporan</h2>
                         <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createModal">
                             <i class="bi bi-plus-circle me-2"></i>Tambah Pertanyaan
                         </button>

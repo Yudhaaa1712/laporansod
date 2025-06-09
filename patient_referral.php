@@ -166,7 +166,9 @@ $recent_referrals = $stmt->fetchAll();
                         <a href="#" class="nav-link active">
                             <i class="bi bi-person-plus me-2"></i>Data Pasien Rujuk
                         </a>
-                      
+                       <a href="riwayat_laporan.php" class="nav-link">
+                            <i class="bi bi-clock-history me-2"></i>Riwayat Laporan
+                        </a>
                         <hr class="text-white-50">
                         <a href="logout.php" class="nav-link">
                             <i class="bi bi-box-arrow-right me-2"></i>Logout

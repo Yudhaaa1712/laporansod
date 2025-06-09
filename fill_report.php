@@ -286,7 +286,7 @@ $progress_percentage = $total_count > 0 ? round(($answered_count / $total_count)
                         <a href="patient_referral.php" class="nav-link">
                             <i class="bi bi-person-plus me-2"></i>Data Pasien Rujuk
                         </a>
-                        <a href="my_reports.php" class="nav-link">
+                        <a href="riwayat_laporan.php" class="nav-link">
                             <i class="bi bi-clock-history me-2"></i>Riwayat Laporan
                         </a>
                         <hr class="text-white-50">
@@ -460,7 +460,7 @@ $progress_percentage = $total_count > 0 ? round(($answered_count / $total_count)
                                                             <textarea class="form-control answer-textarea" 
                                                                       name="answers[<?= $question['id'] ?>]" 
                                                                       rows="3" 
-                                                                      placeholder="Masukkan jawaban..."
+                                                                      placeholder="Jumlah Target..."
                                                                       data-question-id="<?= $question['id'] ?>"><?= htmlspecialchars($existing_answers[$question['id']] ?? '') ?></textarea>
                                                         </div>
                                                     </div>

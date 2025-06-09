@@ -86,8 +86,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="card login-card border-0">
                     <div class="card-header login-header text-center py-4">
                         <i class="bi bi-hospital fs-1"></i>
-                        <h3 class="mb-0 mt-2">Sistem Laporan</h3>
-                        <p class="mb-0 opacity-75">Rumah Sakit</p>
+                        <h3 class="mb-0 mt-2">Sistem Laporan SOD</h3>
+                        <p class="mb-0 opacity-75">Rumah Sakit Awal Bros Ahmad Yani</p>
                     </div>
                     <div class="card-body p-4">
                         <?php if ($error): ?>
@@ -118,7 +118,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <div class="card-footer text-center py-3 bg-transparent">
                         <small class="text-muted">
                             <i class="bi bi-shield-check me-1"></i>
-                            Sistem Laporan Harian RS
+                            Sistem Laporan SOD RS AWAL BROS AHMAD YANI 
                         </small>
                     </div>
                 </div>

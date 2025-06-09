@@ -156,7 +156,7 @@ $is_complete = $completion_percentage >= 100;
                                 <i class="bi bi-building me-2"></i>Master Unit
                             </a>
                             <a href="manage_questions.php" class="nav-link">
-                                <i class="bi bi-question-circle me-2"></i>Kelola Pertanyaan
+                                <i class="bi bi-question-circle me-2"></i>Kelola Target Laporan
                             </a>
                             <a href="monitoring_reports.php" class="nav-link active">
                                 <i class="bi bi-graph-up me-2"></i>Monitoring Laporan
